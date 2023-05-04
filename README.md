@@ -1,6 +1,6 @@
 # CriticControl
 
-![alt text](overview.pdf "Main Figure")
+![alt text](Overview.pdf "Main Figure")
 
 This is the github repository of "Critic-Guided Decoding for Controlled Text Generation", accepted at *ACL 2023 Findings*.
 
