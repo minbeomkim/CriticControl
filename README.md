@@ -32,9 +32,11 @@ conda create -n CriticControl python=3.8 && conda activate CriticControl
 pip install -r requirements.txt
 ```
 
-## Create conda environment and install requirements
+## Train your own Control Codes
 Both Topic and Sentiment Control require your own control code. For Topic Control Task, the default settings are in 'src/topic/*.txt'. In Sentiment Control, the default setting is not binary but only for 'Positive' steering. If you want to make it binary control, make control codes also for Sentiment Control task as Topic Control.
 
 ```
-python3 topic_train.py --model_name gpt2-xl --
+python3 topic_train.py --model_name gpt2-xl --steps 40000 --batch_size 32 --topic topic/topic.txt --prompt topic/prompt.txt
 ```
+
+You can set any topic for your own Control Codes. In my paper, you can find that CriticControl can steer diverse themes anything!
