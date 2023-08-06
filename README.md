@@ -40,3 +40,17 @@ python3 topic_train.py --model_name gpt2-xl --steps 40000 --batch_size 32 --topi
 ```
 
 You can set any topic for your own Control Codes. In my paper, you can find that CriticControl can steer diverse themes anything!
+
+## Inference with CriticControl
+You can find amazing zero-shot control power in my **[paper]((https://aclanthology.org/2023.findings-acl.281/))**. You can choose other topics rather than using only trained topic codes (such as Donald Trump, New York Travel).
+
+```
+python3 topic_text.py --model_name [your directory] --topic topic/inference_topic.txt --prompt topic/prompt.txt
+```
+
+If you want to leverage other decoding methods, change and adapt your own decoder in ##CriticControl Decoding of 'src/trl/gpt2'
+
+
+
+
+
