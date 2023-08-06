@@ -2,7 +2,7 @@
 
 ![alt text](Overview.png "Main Figure")
 
-This is the github repository of **"[Critic-Guided Decoding for Controlled Text Generation](https://aclanthology.org/2023.findings-acl.281/)"**, accepted at *ACL 2023 Findings*.
+This is the GitHub repository of **"[Critic-Guided Decoding for Controlled Text Generation](https://aclanthology.org/2023.findings-acl.281/)"**, accepted at *ACL 2023 Findings*. Also, you can download ***a summarized PDF*** on this repository. (ACL2023-CriticControl-Slides)
 
 Use the following to cite our paper:
 
