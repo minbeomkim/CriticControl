@@ -2,7 +2,7 @@
 
 ![alt text](Overview.png "Main Figure")
 
-This is the github repository of "Critic-Guided Decoding for Controlled Text Generation", accepted at *ACL 2023 Findings*.
+This is the github repository of "[Critic-Guided Decoding for Controlled Text Generation](https://aclanthology.org/2023.findings-acl.281/)", accepted at *ACL 2023 Findings*.
 
 Use the following to cite our paper:
 
@@ -32,5 +32,9 @@ conda create -n CriticControl python=3.8 && conda activate CriticControl
 pip install -r requirements.txt
 ```
 
+## Create conda environment and install requirements
+Both Topic and Sentiment Control require your own control code. For Topic Control Task, the default settings are in 'src/topic/*.txt'. In Sentiment Control, the default setting is not binary but only for 'Positive' steering. If you want to make it binary control, make control codes also for Sentiment Control task as Topic Control.
 
-
+```
+python3 topic_train.py --model_name gpt2-xl --
+```
